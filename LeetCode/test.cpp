@@ -56,3 +56,94 @@
 ////	system("pause");
 ////	return 0;
 ////}
+
+#if 1
+
+#include <iostream>
+#include <string>
+#include <vector>
+
+using namespace std;
+
+class TrieNode {
+public:
+	TrieNode() {
+		is_key = false;
+
+		child.resize(26);
+		for (int i = 0; i < 26; i++) {
+			child[i] = nullptr;
+		}
+	}
+
+	bool is_key;
+	vector<TrieNode *> child;
+};
+
+class WordDictionary {
+public:
+
+	WordDictionary() {
+		root = new TrieNode();
+	}
+
+	~WordDictionary() {
+		delete root;
+	}
+
+	// Adds a word into the data structure.
+	void addWord(string word) {
+		TrieNode *node = root;
+		for (int i = 0; i < word.size(); i++) {
+			TrieNode *tmp = (node->child[word[i] - 'a']);
+			if (tmp == nullptr) {
+				tmp = new TrieNode();
+			}
+			node = tmp;
+		}
+		node->is_key = true;
+	}
+
+	// Returns if the word is in the data structure. A word could
+	// contain the dot character '.' to represent any one letter.
+	bool search(string word) {
+		return DFS(0, word, root);
+	}
+
+	bool DFS(int idx, string &word, TrieNode *node) {
+		if (idx == word.size()) {
+			return true;
+		}
+
+		if (word[idx] == '.') {
+			for (int i = 0; i < 26; i++) {
+				if (node->child[i] != nullptr) {
+					if (DFS(idx + 1, word, node->child[i])) {
+						return true;
+					}
+				}
+			}
+			return false;
+		}
+		else {
+			if (node->child[word[idx] - 'a'] != nullptr) {
+				return DFS(idx + 1, word, node->child[word[idx] - 'a']);
+			}
+			return false;
+		}
+	}
+
+private:
+	TrieNode *root;
+};
+
+// Your WordDictionary object will be instantiated and called as such:
+// WordDictionary wordDictionary;
+// wordDictionary.addWord("word");
+// wordDictionary.search("pattern");
+
+int main() {
+	WordDictionary word;
+}
+
+#endif

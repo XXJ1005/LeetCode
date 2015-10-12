@@ -1,3 +1,4 @@
+#if 0
 #include "common.h"
 
 vector<vector<int>> generateMatrix(int n) {
@@ -76,3 +77,4 @@ int main() {
 	cin >> j;
 	return 0;
 }
+#endif

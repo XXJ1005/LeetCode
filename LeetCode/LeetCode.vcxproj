@@ -156,9 +156,7 @@
     <ClCompile Include="Remove Linked List Elements.cpp" />
     <ClCompile Include="Spiral Matrix II.cpp" />
     <ClCompile Include="Symmetric Tree.cpp" />
-    <ClCompile Include="test.cpp" />
     <ClCompile Include="Valid Palindrome.cpp" />
-    <ClCompile Include="是否有相同元素.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h" />

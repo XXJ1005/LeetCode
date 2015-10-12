@@ -33,9 +33,6 @@
     <ClCompile Include="Symmetric Tree.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="test.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Add Binary.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -43,9 +40,6 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Compare Version Numbers.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="是否有相同元素.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Permutations.cpp">
