@@ -147,7 +147,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Add Binary.cpp" />
+    <ClCompile Include="Binary Search Tree Iterator.cpp" />
+    <ClCompile Include="Binary Tree Right Side View.cpp" />
     <ClCompile Include="Compare Version Numbers.cpp" />
+    <ClCompile Include="Flatten Binary Tree to Linked List.cpp" />
     <ClCompile Include="House Robber.cpp" />
     <ClCompile Include="Implement strStr().cpp" />
     <ClCompile Include="Isomorphic Strings.cpp" />

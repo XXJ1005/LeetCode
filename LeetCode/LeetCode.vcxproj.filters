@@ -48,6 +48,15 @@
     <ClCompile Include="Spiral Matrix II.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Binary Search Tree Iterator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Binary Tree Right Side View.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Flatten Binary Tree to Linked List.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">
