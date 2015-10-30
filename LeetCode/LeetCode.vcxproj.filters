@@ -57,6 +57,18 @@
     <ClCompile Include="Flatten Binary Tree to Linked List.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Parttition List.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="House Robber II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Search for a Range.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Insertion Sort List.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">

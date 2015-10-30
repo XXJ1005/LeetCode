@@ -1,8 +1,6 @@
 #if 0
 #include "common.h"
 
-
-
 struct TreeNode {
     int val;
     TreeNode *left;

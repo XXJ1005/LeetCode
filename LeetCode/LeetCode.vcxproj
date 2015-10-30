@@ -151,12 +151,16 @@
     <ClCompile Include="Binary Tree Right Side View.cpp" />
     <ClCompile Include="Compare Version Numbers.cpp" />
     <ClCompile Include="Flatten Binary Tree to Linked List.cpp" />
+    <ClCompile Include="House Robber II.cpp" />
     <ClCompile Include="House Robber.cpp" />
     <ClCompile Include="Implement strStr().cpp" />
+    <ClCompile Include="Insertion Sort List.cpp" />
     <ClCompile Include="Isomorphic Strings.cpp" />
     <ClCompile Include="Palindrome Partitioning.cpp" />
+    <ClCompile Include="Parttition List.cpp" />
     <ClCompile Include="Permutations.cpp" />
     <ClCompile Include="Remove Linked List Elements.cpp" />
+    <ClCompile Include="Search for a Range.cpp" />
     <ClCompile Include="Spiral Matrix II.cpp" />
     <ClCompile Include="Symmetric Tree.cpp" />
     <ClCompile Include="Valid Palindrome.cpp" />
